@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+====#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from runner.koan import *
@@ -14,11 +14,11 @@ class AboutAsserts(Koan):
         #
         #   http://bit.ly/about_asserts
 
-        self.assertTrue(False) # This should be True
+        self.assertTrue(True) # This should be True
 
     def test_assert_with_message(self):
         """
-        Enlightenment may be more easily achieved with appropriate messages.
+        Enlightenment may be more easily achieved with appropriate messages.`
         """
         self.assertTrue(False, "This should be True -- Please fix this")
 
